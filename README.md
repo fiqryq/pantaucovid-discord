@@ -2,18 +2,18 @@
 A chat bot for Discord, built on top of discord.js. 
 
 ## Features:
-- '#info' -> view bot info and commands.
-- '#positif' -> see the total positive cases in Indonesia
-- '#sembuh' -> see the total cases recovered in Indonesia
-- '#meninggal' -> see the total death cases in Indonesia
-- '#kasus' -> see the total cases of corona Indonesia
+- `#info` -> view bot info and commands.
+- `#positif` -> see the total positive cases in Indonesia
+- `#sembuh` -> see the total cases recovered in Indonesia
+- `#meninggal` -> see the total death cases in Indonesia
+- `#kasus` -> see the total cases of corona Indonesia
 
 ## Doing task
-- [] add more feature
+- add more feature
 
 ## Completed task
 - [x] Init Project
-- [x] Deploy bot
+- [x] Deploy bot [using raspberry pi]
 
 
 ## Colaborator
