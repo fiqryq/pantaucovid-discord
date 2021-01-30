@@ -9,6 +9,16 @@ A chat bot for Discord, built on top of discord.js.
 - `#kasus` -> see the total cases of corona Indonesia
 - `#update` -> view update bot.
 
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run start
+```
+
 ## Doing task
 - add more feature
 
