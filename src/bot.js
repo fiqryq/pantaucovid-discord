@@ -43,7 +43,6 @@ client.on('message',(message) => {
     } 
 })
 
-// what the fuck is this? i still code on response axioss wew.
 async function getKasus(message) {
     try {
       const response = await axios.get(url);
