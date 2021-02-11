@@ -5,10 +5,14 @@ const { Client } = require("discord.js");
 const client = new Client();
 const axios = require("axios");
 const moment = require("moment");
+
 client.login(process.env.DISCORDJS_BOT_TOKEN);
 
 // Command
 const PREFIX = "#";
+
+// Cornjob task init
+const cron = require("node-cron");
 
 // url
 let url = "https://covid19.mathdro.id/api/countries/ID";
@@ -20,6 +24,16 @@ let avatar = "freepik";
 
 client.on("ready", () => {
   console.log(`${client.user.tag} has logged in`);
+});
+
+// Run task At 14:30
+// Push case message
+cron.schedule("30 15 * * * *", function () {
+  client.on("message", (message) => {
+    if (message.author.bot) return;
+    getKasus(message);
+    console.log("Success run task");
+  });
 });
 
 client.on("message", (message) => {
