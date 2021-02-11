@@ -7,6 +7,7 @@ A chat bot for Discord, built on top of discord.js.
 - `#sembuh` -> see the total cases recovered in Indonesia
 - `#meninggal` -> see the total death cases in Indonesia
 - `#kasus` -> see the total cases of corona Indonesia
+- `#vaksin` -> Vaccine Tracker data source kemkes
 - `#update` -> view update bot.
 
 ## Project setup
