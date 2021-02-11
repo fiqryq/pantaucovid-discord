@@ -174,7 +174,7 @@ function getInfo(message) {
 }
 
 function getUpdate(message) {
-  message.channel.send("## check status vaksin di indonesia");
+  message.channel.send("## push informasi kasus setiap jam 15:30");
 }
 
 // Convert to number format
