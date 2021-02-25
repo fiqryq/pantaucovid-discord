@@ -25,7 +25,7 @@ npm run start
 
 ## Completed task
 - [x] Init Project
-- [x] Deploy bot [using raspberry pi]
+- [x] Deploy bot using vps.
 
 
 ## Colaborator
