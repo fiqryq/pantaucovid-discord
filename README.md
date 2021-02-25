@@ -1,5 +1,8 @@
 ## Pantaucovid bot (underdev)
-A chat bot for Discord, built on top of discord.js. 
+A chat bot for Discord, built on top of discord.js.
+
+[![Discord Bots](https://top.gg/api/widget/804315303801520218.svg)](https://top.gg/bot/804315303801520218)
+
 
 ## Features:
 - `#info` -> view bot info and commands.
